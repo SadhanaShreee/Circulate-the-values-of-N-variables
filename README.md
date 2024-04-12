@@ -16,6 +16,7 @@ Using the slicing concept rotate the list
 ### Step 5: 
 Print the circulated list l with the message "After circulating the values are:"
 
+
 ## Program:
                               def circulate():
                                   l=eval(input())
@@ -23,6 +24,7 @@ Print the circulated list l with the message "After circulating the values are:"
                                   l=l[n:] + l[:n]
                                   print("After circulating the values are:",l)
                                   
+
 ## Output:
 ![Screenshot 2024-03-21 140022](https://github.com/SadhanaShreee/Circulate-the-values-of-N-variables/assets/144517664/cc0556aa-cda3-4ea6-83b9-8bd8f25a31b5)
 
